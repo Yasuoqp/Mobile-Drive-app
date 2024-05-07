@@ -16,15 +16,20 @@
     + Pg Admin
 * Технологии :
     + React router dom v6"action, loader, form"
+    + yup для валидации формы
     + TanStack
     + Tailwind
     + ESLint, Prettier
 
 ## Работа Приложени.
-###  1. Вход в приложение и Авторизация.
+###  1. Вход и Авторизация.
 
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-in.png)
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-up.png)
+
+> После успешного входа или регистрации получаем token сохраняя его в localstorage и осуществляется redirect на глвную страницу  
+
+
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
 Токен сохраняется в локал сторедж.
 Запрос осуществляется с наличием токена с целью получения информации для конкретного юзера.
