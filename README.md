@@ -1,6 +1,6 @@
 # Мобильное веб-приложение: Mobile Drive (версия для водителей организации).
 
-![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/tree/main/sign-in.png)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-in.png)
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
 Токен сохраняется в локал сторедж.
 Запрос осуществляется с наличием  токена с целью получения информации для конкретного юзера.
