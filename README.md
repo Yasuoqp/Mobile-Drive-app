@@ -21,7 +21,7 @@
     + ESLint, Prettier
 
 ## Работа Приложени.
-### Вход в приложение и Авторизация 
+###  1. Вход в приложение и Авторизация.
 
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-in.png)
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-up.png)
