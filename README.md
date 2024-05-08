@@ -14,12 +14,13 @@
     + Git Hub
     + Postman
     + Pg Admin
-* Технологии :
-    + React router dom v6"action, loader, form"
-    + yup для валидации формы
-    + TanStack
-    + Tailwind
-    + ESLint, Prettier
+* Библиотеки и Директивы :
+    + `React router dom` v6"action, loader, form"
+    + `TanStack`
+    + `Tailwind`
+    + `alias` для импортов 
+    + `yup` для валидации формы
+    + `ESLint, Prettier`
 
 ## Работа Приложени.
 ###  1. Вход и Авторизация.
@@ -33,6 +34,11 @@
 
 > Пользователь получает задачи по токену только для даннго юзера.
 
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed)
+
+
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
 Токен сохраняется в локал сторедж.
 Запрос осуществляется с наличием токена с целью получения информации для конкретного юзера.
@@ -43,7 +49,7 @@
 
 Каждое событие водителя отображается в админ панели (далее проект Админ панель).
 
-Технологии:
+
 Изначально использовался React, Redux toolkit, RTK Query, ant design.
 Затем было принято решение, избавиться от Redux и RTK Query, ant design из-за ненадобности и лишнего веса для простого
 приложение. Таким образом, переписан приложение было на React, React router dom v6"action, loader, form" , TanStack,
