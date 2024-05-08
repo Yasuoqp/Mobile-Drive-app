@@ -72,7 +72,7 @@
 
 ### Заверщенные Задачи `completed tasks`
 
-1) ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed-task.png)
+1)  ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed-task.png)
 
 > На данном этапе это все, пока ведеться просто отображение завершенных задач 
 > 
