@@ -28,9 +28,10 @@
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-in.png)
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/sign-up.png)
 
-> После успешного входа или регистрации получаем token сохраняя его в localstorage и осуществляется redirect на глвную страницу  
+> - После успешного входа или регистрации получаем token сохраняя его в localstorage и осуществляется redirect на глвную страницу  
+>   + При попытке пройти на любую из страниц без `token`  осуществлеяется `redirect` на авторизацию 
 
-### 2. Список задач.
+### 2. Список задач. `current tasks`
 
 > Пользователь получает  `tasks` по токену только для даннго юзера. `Картинка № 1`
 > 
@@ -69,12 +70,24 @@
 1) ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task.png) 
 2.![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info.png) 
 
-####
-
-
-
+### Заверщенные Задачи `completed tasks`
 
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed-task.png)
+
+> На данном этапе это все, пока ведеться просто отображение завершенных задач 
+> 
+> но функционал будет добавляться для возможности вернуть их в 'current task' 
+> Дабы узбежать случаных ошибок после завершения заказа. 
+> 
+>
+
+
+ ### Последняя кнопка на панели это выход из приложения 
+
+  - При нажатии на кнопку выхода 
+    + Срабатывает `action` для удаления токена из `localstorage`
+    + `loader` для отправки на бэк выход из системы 
+  
 
 
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
