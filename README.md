@@ -36,7 +36,7 @@
 
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task.png)
 ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info.png)
-![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed.png)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed-task.png)
 
 
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
