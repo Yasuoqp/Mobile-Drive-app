@@ -37,11 +37,12 @@
 > В `Control Center ` по умолчанию в обьекте создается ключи  `isActive: false` и `status: "Ожидание"`
 > 
 > Затем приложение понимает, что заказ вновь создан и отображает его в `current-task` для текущих задач ориентируясь на ключи ставит цвет `border`
-> 
+>
 
-1) ![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task.png)
-2.![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info.png)
 > При нажатии на `task` Открывается информация о поручении `Картинка № 2`
+> 
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task.png) Картинка 1.
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info.png) Картинка 2.
 
 ####
 
