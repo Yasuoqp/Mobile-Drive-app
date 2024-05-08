@@ -34,9 +34,9 @@
 
 > Пользователь получает задачи по токену только для даннго юзера.
 
-![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task)
-![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info)
-![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/current-task.png)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/task-info.png)
+![Image alt](https://github.com/Yasuoqp/Mobile-Drive-app/blob/main/imgReadme/completed.png)
 
 
 Регистрация и авторизация по токену из собственно написанного бэкэнда.
