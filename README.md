@@ -17,6 +17,7 @@
 * Библиотеки и Директивы :
     + `React router dom` v6"action, loader, form"
     + `TanStack`
+    + `Scss` препроцессор   
     + `Tailwind`
     + `alias` для импортов 
     + `yup` для валидации формы
