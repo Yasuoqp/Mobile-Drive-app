@@ -1,0 +1,53 @@
+.main {
+  margin: 8em 2.5em 0 2.5em;
+  height: 100%;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input::placeholder {
+    color: #cbc4c4;
+  }
+
+  input {
+    background: transparent;
+    padding: 15px;
+    margin-top: 1.5em;
+    color: #cbc4c4;
+    border-radius: 50px;
+    border: 2px solid rgb(169, 46, 89);
+  }
+
+  button {
+    border-radius: 50px;
+    padding: 13px;
+    margin-top: 1.5em;
+    background-color: rgb(238, 58, 87);
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  .register {
+    margin-top: 5px;
+    margin-left: 20px;
+
+    a {
+      color: rgb(238, 58, 87);
+    }
+  }
+
+  .error {
+    margin-top: 8px;
+    font-size: 13px;
+    color: rgb(208, 13, 46);
+  }
+
+}

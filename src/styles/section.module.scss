@@ -1,0 +1,51 @@
+@import "variables";
+
+.section {
+  background-color: $section_bg_color;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 10%;
+  text-align: center;
+
+  .header {
+    font-size: 16px;
+
+    .icon {
+      position: absolute;
+      width: 25px;
+      height: 20px;
+      margin-top: 3px;
+      left: 2em;
+      fill: white;
+    }
+
+
+  }
+
+
+
+  .footer {
+    margin-top: 1em;
+  }
+
+  .logo {
+    fill: white;
+    width: 35px;
+    height: 30px;
+  }
+  .active-link{
+    fill: aqua;
+  }
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:not(:first-child) {
+  padding: 0 0 0 1.5em;
+
+}

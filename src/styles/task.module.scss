@@ -1,0 +1,94 @@
+.defaultTask {
+  font-size: 13px;
+
+  border: 3px solid rgba(245, 157, 53, 0.87);
+  margin: 10px;
+  border-radius: 15px;
+
+}
+
+.completed_tasks {
+  font-size: 13px;
+  border: 3px solid #888585;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.do_not_rush_task {
+  font-size: 13px;
+  border: 3px solid rgba(69, 177, 51, 0.73);
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.title {
+  margin-top: 0;
+  padding: 1px 0;
+  width: 100%;
+  font-size: 17px;
+}
+
+span {
+  color: #cbc8c8;
+  font-size: 13px;
+  line-height: 10px;
+}
+
+.content {
+  padding: 15px 18px 18px 18px;
+  display: flex;
+  font-size: 11px;
+
+
+}
+
+.time_container {
+  color: #cbc8c8;
+
+  div {
+    margin-top: 7px;
+    text-align: end;
+  }
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  span {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 11px;
+  }
+;
+
+}
+
+
+.switchTask {
+  height: 100%;
+  overflow: auto;
+}
+
+.form {
+  position: absolute;
+  right: 0;
+
+  button {
+    background-color: transparent;
+    margin-right: 1em;
+  }
+
+  input {
+    display: none;
+  }
+
+  svg {
+    margin-top: 5px;
+    margin-right: 5px;
+    fill: #cbd6ee;
+    width: 20px;
+    height: 20px;
+  }
+}

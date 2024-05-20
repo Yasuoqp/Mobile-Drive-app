@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.mainContainer {
+  width: 80%;
+  margin-left: 2.5em;
+
+
+  h3 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+
+    padding: 0;
+  }
+
+  span {
+    color: #cbc8c8;
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .data {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btnContainer {
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 5em;
+
+    .acceptTask {
+      margin: 0 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    input {
+      display: none;
+    }
+    button{
+      width: 100%;
+    }
+  }
+}
